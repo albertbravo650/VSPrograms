@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(210, 79, 79, 0.91);
+    padding: 20px;
+    height: 230px;
+    border: 15px solid gold;
+    box-shadow: 5px 5px 20px goldenrod;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    border: 10px solid rgba(0, 0, 139, 0.773);
+    background-color: rgba(0, 0, 255, 0.547);
+    box-shadow: 5px 5px 5px darkblue;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gold;
+}
+
+#pokedex {
+    border-radius: 0%;
+    margin-left: 15px;
+    border: 0;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+button {
+    margin-left: 15px;
+    width: 75px;
+    height: 30px;
+    font-size: 20px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid black;
+    box-shadow: 5px 5px 10px black;
+    width: 480px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(34, 34, 208, 0.504);
+    border-radius: 5px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 2px solid black;
+}
+
+a {
+    color: blue;
+}

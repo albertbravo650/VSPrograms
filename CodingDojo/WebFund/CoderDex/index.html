@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CoderDex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="title">
+            <h1>My Github Coder-Dex</h1>
+            <img id="pokedex" src="imgs/pokedex2.png" alt="pokedex">
+        </div>
+        <h3>learned from <a href="https://github.com/dev-marisa">dev-marisa</a></h3>
+        <h3>(not my original idea)</h3>
+    </div>
+
+    <div class="search">
+        <input type="text" oninput="getUsername(this)" name="username" placeholder="enter Github username">
+    <button onclick="search()">Add</button>
+    </div>
+
+    <div class="content">
+        <div id="cards">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
